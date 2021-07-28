@@ -1,0 +1,27 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+}
+
+.digit {
+	font-size: 80px;
+	font-weight: 200;
+}
+
+.txt {
+	font-size: 20px;
+}
+
+#btn-container {
+	text-align: center;
+}
+
+.btn {
+	padding: 10px 20px;
+	font-size: 15px;
+	margin: 0px 5px;
+	border: none;
+	cursor: pointer;
+}
