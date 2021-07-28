@@ -24,6 +24,7 @@ function stopWatch() {
 		if (minutes == 60) {
 			hour++;
 			minutes = 0;
+			seconds = 0;
 		}
 
 		document.getElementById('hr').innerHTML = hour;
